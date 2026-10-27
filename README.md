@@ -6,7 +6,7 @@ Tela de login responsiva feita com **HTML e CSS puros**. O projeto é um exercí
 
 ## Demonstração
 
-- **Página publicada:** [COLE AQUI O LINK DO GITHUB PAGES]
+- **Página publicada:** https://levialencar-dev.github.io/card-login/
 - **Capturas de tela:**
 
 | Computador | Celular |
@@ -49,7 +49,7 @@ login/
 
 1. Clone o repositório:
    ```
-   git clone https://github.com/LeviAlencar-dev/NOME-DO-REPOSITORIO.git
+   git clone https://github.com/LeviAlencar-dev/card-login
    ```
 2. Abra o arquivo `index.html` no navegador. Não há dependências nem etapa de instalação.
 

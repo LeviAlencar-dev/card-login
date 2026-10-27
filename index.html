@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Levi Alencar">
+    <meta name="description" content="Página de Login">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="card">
+        <div class="box-header">
+            <div class="box-icone-header">
+                <div class="box-icone">
+                    <img src="img/arrow-icon.svg" alt="Seta">
+                </div>
+            </div>
+            <div class="box-info">
+                <h1>Faça login com email</h1>
+                <p>Crie um novo documento para reunir suas palavras, dados e equipes, gratuitamente</p>
+            </div>
+        </div>
+
+        <div class="box-login">  
+                <form action="#" method="post">
+                    <div class="box-input">
+                        <img src="img/email-icon.svg" alt="">
+                        <input type="email" name="email" id="email" placeholder="Email" required autocomplete="email" aria-label="Email">
+                    </div>
+                    <div class="box-input">
+                        <img src="img/lock-icon.svg" alt="">
+                        <input type="password" name="senha" id="senha" placeholder="Senha" required autocomplete="current-password" aria-label="Senha">
+                    </div>
+                    <div class="box-login-info">
+                        <p><a href="#">Esqueceu a senha?</a></p>
+                    </div>
+                    <button type="submit" id="btnSubmit">Entrar</button>
+                </form>
+        </div>
+
+        <div class="box-login-alt">
+                <p>Ou faça login com</p>
+            <div class="box-icone-social">
+                <div>
+                    <a href="#"><img src="img/google-icon.svg" alt="faça login com Google"></a>
+                </div>
+                <div>
+                    <a href="#"><img src="img/facebook-icon.svg" alt="faça login com Facebook"></a>
+                </div>
+                <div>
+                    <a href="#"><img src="img/apple-icon.svg" alt="faça login com Apple"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
